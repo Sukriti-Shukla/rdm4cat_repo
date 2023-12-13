@@ -22,14 +22,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = 'django-insecure-lz@q=m644^k%7dvdxi#xc-r@b)^6du6%@76%r1g4$o9r!$pop&'
-SECRET_KEY = os.environ.get("SECRET_KEY")
+SECRET_KEY = 'django-insecure-lz@q=m644^k%7dvdxi#xc-r@b)^6du6%@76%r1g4$o9r!$pop&'
+#SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get('DEBUG', "False").lower() == "true"
+#DEBUG = os.environ.get('DEBUG', "False").lower() == "true"
+DEBUG = True
+#ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS").split(" ")
 
-ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS").split(" ")
-
-
+ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
@@ -90,11 +90,11 @@ WSGI_APPLICATION = 'djangodb.wsgi.application'
 #         'PORT':'5432',
 #     }
 # }
-database_url = os.environ.get("DATABASE_URL")
-# DATABASES = {
-#     'default': dj_database_url.parse("postgres://rdm4cat_database_user:Qy6B1j1srKMnx9RJo8hO5z46KjSnbh3k@dpg-cls6kprip8as73a45460-a.oregon-postgres.render.com/rdm4cat_database")
-# }
-DATABASES = { 'default' : dj_database_url.config(default=database_url, conn_max_age=500) }
+#database_url = os.environ.get("DATABASE_URL")
+DATABASES = {
+    'default': dj_database_url.parse("postgres://rdm4cat_database_user:Qy6B1j1srKMnx9RJo8hO5z46KjSnbh3k@dpg-cls6kprip8as73a45460-a.oregon-postgres.render.com/rdm4cat_database")
+}
+#DATABASES = { 'default' : dj_database_url.config(default=database_url, conn_max_age=500) }
 
 
 # Password validation
