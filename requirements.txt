@@ -29,7 +29,7 @@ fonttools==4.43.1
 #geneus==3.0.0
 #genlisp==0.4.18
 #gennodejs==2.0.2
-genpy==0.6.15
+#genpy==0.6.15
 geodesy==0.5.6
 gunicorn==21.2.0
 image-geometry==1.16.2
