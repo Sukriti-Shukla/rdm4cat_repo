@@ -22,21 +22,21 @@ django-crispy-forms==2.1
 django-extensions==3.2.3
 django-plotly-dash==2.2.2
 dpd-components==0.1.0
-dynamic-reconfigure==1.7.3
+#dynamic-reconfigure==1.7.3
 et-xmlfile==1.1.0
 flask==3.0.0
 fonttools==4.43.1
-# geneus==3.0.0
-# genlisp==0.4.18
-# gennodejs==2.0.2
-# genpy==0.6.15
-# geodesy==0.5.6
+geneus==3.0.0
+genlisp==0.4.18
+gennodejs==2.0.2
+genpy==0.6.15
+geodesy==0.5.6
 gunicorn==21.2.0
 image-geometry==1.16.2
-# importlib-metadata==6.8.0
-# importlib-resources==6.1.0
-# interactive-markers==1.12.0
-# itsdangerous==2.1.2
+importlib-metadata==6.8.0
+importlib-resources==6.1.0
+interactive-markers==1.12.0
+itsdangerous==2.1.2
 Jinja2==3.1.2
 # joint-state-publisher==1.15.1
 # joint-state-publisher-gui==1.15.1
