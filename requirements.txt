@@ -22,7 +22,7 @@ django-crispy-forms==2.1
 django-extensions==3.2.3
 django-plotly-dash==2.2.2
 dpd-components==0.1.0
-# dynamic-reconfigure==1.7.3
+dynamic-reconfigure==1.7.3
 et-xmlfile==1.1.0
 flask==3.0.0
 fonttools==4.43.1
