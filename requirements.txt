@@ -4,8 +4,8 @@ blinker==1.6.3
 # bondpy==1.8.6
 # channels==4.0.0
 # channels-redis==4.1.0
-click==8.1.7
-click-didyoumean==0.3.0
+#click==8.1.7
+#click-didyoumean==0.3.0
 contourpy==1.1.1
 cycler==0.12.1
 # dash==2.9.3
@@ -24,7 +24,7 @@ django-plotly-dash==2.2.2
 dpd-components==0.1.0
 #dynamic-reconfigure==1.7.3
 et-xmlfile==1.1.0
-flask==3.0.0
+#flask==3.0.0
 fonttools==4.43.1
 #geneus==3.0.0
 #genlisp==0.4.18
