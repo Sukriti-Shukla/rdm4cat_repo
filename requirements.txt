@@ -60,11 +60,11 @@ python-dateutil==2.8.2
 pytz==2023.3
 PyYAML==6.0
 redis==5.0.1
-resource-retriever==1.12.7
+#resource-retriever==1.12.7
 simplejson==3.19.1
 six==1.16.0
-smach==2.5.0
-smach-ros==2.5.0
+#smach==2.5.0
+#smach-ros==2.5.0
 smclib==1.8.6
 sqlparse==0.4.4
 tenacity==8.2.3
